@@ -1,0 +1,188 @@
+
+@import URL('https://fonts.googleapis.com/css2? family=Open+Sans:wght@500&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+    background-color:#eee;  
+}
+
+
+.navbar-content{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-bottom: 10px;
+}
+
+
+.logo{
+    display: flex;
+    margin-top: 10px;
+}
+
+h2,h1,h4 , .cart-text{
+    font-weight: bold;
+    color:#E94C61;
+    font-size: 26px;
+}
+
+
+h1{
+    font-size: 36px;
+
+}
+
+h4{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+.leading{
+    font-size: 18px;
+}
+
+.termek{
+    width: 50%;
+   
+}
+
+
+.cart-text{
+   font-size: 20px;
+}
+
+label{
+    font-weight: bold;
+    color:#4C5C68;
+}
+
+.btn-checkout{
+    background-color: #f36e21;
+   
+}
+
+.btn-checkout{
+    font-weight: bold;
+    color:white;
+    
+}
+
+.text-success{
+   color:#007E36 !important;
+}
+
+.badge-warning{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    left:96%;
+    top:-30px;
+    padding: 2px;
+}
+
+.badge-secondary{
+    background-color: #42537D;
+}
+
+.btn-card{
+    border: solid 2px #42537D;
+    color: #42537D;
+    background-color: transparent;
+    
+}
+
+.checkout-box, .cart-box{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.list-group-item{
+    background-color: transparent;
+}
+
+.footer-content{
+    background-color: #212529;
+    height: 60px;
+    color:#fff;
+    padding-top: 20px;
+    margin-top: 60px;
+}
+
+
+.custom-control label{
+    font-size: 15px;
+}
+
+.payment-icon{
+    color:#f36e21;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color: #007E36;  /* green */
+    /* this bg image SVG is just a white circle, you can replace it with any valid SVG code */
+   width: 15px; 
+   height: 15px;
+   border-radius: 50%;
+}
+
+ .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#007E36;
+  }
+
+@media screen and (max-width: 992px) {
+    .cart-box{
+        margin-top: 50px;
+    }
+
+    .leading{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size:25px;
+    }
+
+    .product-img{
+        margin-right: 20px;
+    }
+    .text-muted{
+        font-size: 10px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 940px) {
+    .badge-warning{
+        left:90%;
+     }
+ }
+
+ 
+ @media screen and (max-width: 768px) {
+    .badge-warning{
+        left:98%;
+     }
+
+     .text-muted{
+        font-size: 15px;
+    }
+ }
+
+
+
+
+
+
+
